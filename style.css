@@ -1,0 +1,15 @@
+/* presets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables colores */
+.title {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.description {
+  font-family: "Quicksand", sans-serif;
+}/*# sourceMappingURL=style.css.map */
