@@ -109,7 +109,6 @@ $third: rgba(48, 125, 67, 0.808);
     }
 }
 
-
 .aboutContainer {
     padding: 100px;
     width: 180vh;
@@ -138,4 +137,36 @@ $third: rgba(48, 125, 67, 0.808);
                 max-width: 100%;
             }
         }
+}
+
+.contactContainer {
+    padding: 100px;
+    width: 180vh;
+    height: 100vh;
+    min-height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 60px;
+        }
+        .contactUs {
+            padding: 20px;
+            max-width: 80vh;
+        }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: start;
+    grid-column-gap: 20px;
+    padding: 100px;
+    background-color: rgba(128, 128, 128, 0.056);
 }

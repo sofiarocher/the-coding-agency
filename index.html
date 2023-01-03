@@ -133,17 +133,9 @@
           <img src="media/team.jpg" alt="" width="">
         </div>  
       </section>
-      <section id="contact" class="contactUs">
+      <section id="contact" class="contactContainer">
          <h1 class="title">Get in touch</h1>
-         <div class="row g-3">
-            <div class="col">
-              <input type="text" class="form-control description" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control description" placeholder="Last name" aria-label="Last name">
-            </div>
-          </div>
-          <form>
+          <form class="contactUs">
             <div class="row mb-3">
               <label for="inputEmail3" class="col-sm-2 col-form-label description">Email</label>
               <div class="col-sm-10">
@@ -173,7 +165,7 @@
                 </div>
               </div>
             </fieldset>
-            <button type="button" class="btn btn-primary title" id="liveToastBtn">Send</button>
+            <button type="button" class="btn btn-dark title" id="liveToastBtn">Send</button>
               <div class="toast-container position-fixed bottom-0 end-0 p-3">
                 <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                   <div class="toast-header">
@@ -189,21 +181,21 @@
               </div>
           </form>
       </section>
-      <!--<footer class="footer"> 
-        <img src="media/logo.png" alt="" width="150px">
-        <h3 class="title">The Coding Agency</h3>
-        <h6 class="description">Adress</h6>
-        <p class="description">Av Corrientes 1628, C1044, Buenos Aires, Argentina.</p>
-        <h6 class="description">Email</h6>
-        <p class="description">info@thecodingagency.com</p>
-        <h6 class="description" >Call us</h6>
-        <p class="description">+54 9 1158286753</p>
-        <h6 class="description">Follow Us</h6>
-        <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
-        <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
-        <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
-      </footer>
-  </main> -->
+      <footer class="footer"> 
+        <div>
+          <h3 class="title">The Coding Agency</h3>
+        </div>
+        <div>
+          <h6 class="description">Adress</h6>
+          <p class="description">Av Corrientes 1628, C1044, Buenos Aires, Argentina.</p>
+          <h6 class="description">Email</h6>
+          <p class="description">info@thecodingagency.com</p>
+        </div>
+        <div>
+          <h6 class="description">Follow Us</h6>
+          <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
+        </div>
+  </main>
     <script src="javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
