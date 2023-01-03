@@ -30,6 +30,14 @@ $third: rgba(48, 125, 67, 0.808);
     
 }
 
+.navbar {
+
+    a:hover {
+        text-decoration: underline;
+        color: $secondary;
+    }
+}
+
 .homePage {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

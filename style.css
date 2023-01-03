@@ -24,6 +24,11 @@
   grid-template-rows: repeat(5, 1fr);
 }
 
+.navbar a:hover {
+  text-decoration: underline;
+  color: rgb(221, 144, 18);
+}
+
 .homePage {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
