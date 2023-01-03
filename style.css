@@ -12,4 +12,16 @@
 
 .description {
   font-family: "Quicksand", sans-serif;
+}
+
+.backColor {
+  background-color: rgb(244, 244, 244);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  width: 100vh;
+  height: 100vh;
+  min-height: 100vh;
 }/*# sourceMappingURL=style.css.map */
