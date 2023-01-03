@@ -91,6 +91,23 @@ $third: rgba(48, 125, 67, 0.808);
           
     }
 }
+
+.portfolioContainer {
+    padding: 100px;
+    width: 180vh;
+    height: 100vh;
+    min-height: 100vh;
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
+    a {
+       text-decoration: none;
+       color: $primary; 
+       font-weight: bold;
+    }
+}
 .aboutUs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

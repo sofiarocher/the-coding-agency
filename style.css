@@ -81,6 +81,23 @@
   margin: 10px;
 }
 
+.portfolioContainer {
+  padding: 100px;
+  width: 180vh;
+  height: 100vh;
+  min-height: 100vh;
+}
+.portfolioContainer h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.portfolioContainer a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+}
+
 .aboutUs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
