@@ -12,7 +12,7 @@
 </head>
 <body class="backColor">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary backColor">
+        <nav class="navbar navbar-expand-lg backColor">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">
                 <img src="media/logo.png" alt="" width="80px">
@@ -44,46 +44,50 @@
         </header>
     <main class=" gridContainer">
       <section id="home" class="homePage">
-        <h1 class="title">The Coding Agency</h1>
-        <h3 class="description">Get a free homepage mockup!</h3>
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/mq508HXzccI" title="Startechup Inc - Web and Software Development Agency - Promotional Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container">
+          <h1 class="title">The Coding Agency</h1>       
+          <button type="button" class="btn btn-dark title description">Get a free homepage mockup!</button>
+        </div>  
+        <iframe width="600" height="400" src="https://www.youtube.com/embed/mq508HXzccI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
-      <section id="services">
+       <section id="services" class="servicesContainer" >
         <h1 class="title">Services</h1>
-        <div>
-          <h3 class="title">Web design</h3>
-          <ul class="description">
-            <li>UX/UI</li>
-            <li>Responsive</li>
-            <li>MockUps</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="title">Web development</h3>
-          <ul class="description">
-            <li>Front-end development</li>
-            <li>Back-end development</li>
-            <li>E-commerce</li>
-            <li>Popular CMS</li>
-            <li>QA</li>
-            <li>Search Engine Optimization (SEO)</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="title">Maintenance</h3>
-          <ul class="description">
-            <li>Content updates</li>
-            <li>Website backups</li>
-            <li>Code and plugin upgrades</li>
-            <li>Move websites to a new host with no down time</li>
-            <li>Fix broken links, html errors, any website errors</li>
-            <li>On-site technical SEO services</li>
-          </ul>
-        </div>
+        <section class="services">
+          <div>
+            <h3 class="title">Web design</h3>
+            <ul class="description">
+              <li>UX/UI</li>
+              <li>Responsive</li>
+              <li>MockUps</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="title">Web development</h3>
+            <ul class="description">
+              <li>Front-end development</li>
+              <li>Back-end development</li>
+              <li>E-commerce</li>
+              <li>Popular CMS</li>
+              <li>QA</li>
+              <li>Search Engine Optimization (SEO)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="title">Maintenance</h3>
+            <ul class="description">
+              <li>Content updates</li>
+              <li>Website backups</li>
+              <li>Code and plugin upgrades</li>
+              <li>Move websites to a new host with no down time</li>
+              <li>Fix broken links, html errors, any website errors</li>
+              <li>On-site technical SEO services</li>
+            </ul>
+          </div>
+        </section>
       </section>
       <section id="portfolio">
         <h1 class="title">Portfolio</h1>
-        <div id="carouselExampleCaptions" class="carousel slide description">
+        <div id="carouselExampleCaptions" class="carousel slide description portfolio">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -122,12 +126,14 @@
           </button>
         </div>
       </section>
-      <section id="about">
+      <!--<section id="about" >
         <h1 class="title">About Us</h1>
-        <h5  class="description">Our team is made up of highly skilled developers with a passion for building great products. We work together to create and maintain digital products that support the brand's goals and objectives. The team may be responsible for building and maintaining websites, applications, and other online platforms, as well as integrating with other systems and technologies as needed.</h5>
-        <img src="media/team.jpg" alt="">
+        <div class="aboutUs">
+          <h5  class="description">Our team is made up of highly skilled developers with a passion for building great products. We work together to create and maintain digital products that support the brand's goals and objectives. The team may be responsible for building and maintaining websites, applications, and other online platforms, as well as integrating with other systems and technologies as needed.</h5>
+          <img src="media/team.jpg" alt="" width="">
+        </div>  
       </section>
-      <section id="contact">
+      <section id="contact" class="contactUs">
          <h1 class="title">Get in touch</h1>
          <div class="row g-3">
             <div class="col">
@@ -183,7 +189,7 @@
               </div>
           </form>
       </section>
-      <footer> 
+      <footer class="footer"> 
         <img src="media/logo.png" alt="" width="150px">
         <h3 class="title">The Coding Agency</h3>
         <h6 class="description">Adress</h6>
@@ -197,7 +203,7 @@
         <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
         <a href="https://www.instagram.com/srocher_/"><img src="media/instagram.png" alt="" width="30px"></a>
       </footer>
-  </main>
+  </main> -->
     <script src="javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
